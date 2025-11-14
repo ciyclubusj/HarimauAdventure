@@ -147,6 +147,7 @@ self.C3_JsPropNameTable = [
 	{TiledBackground21: 0},
 	{DancingTiger: 0},
 	{Sprite13: 0},
+	{Text4: 0},
 	{cardClicked: 0},
 	{Level: 0},
 	{Health: 0},
@@ -218,5 +219,6 @@ self.InstanceType = {
 	TiledBackground20: class extends self.ITiledBackgroundInstance {},
 	TiledBackground21: class extends self.ITiledBackgroundInstance {},
 	DancingTiger: class extends self.ISpriteInstance {},
-	Sprite13: class extends self.ISpriteInstance {}
+	Sprite13: class extends self.ISpriteInstance {},
+	Text4: class extends self.ITextInstance {}
 }
